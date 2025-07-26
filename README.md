@@ -95,18 +95,10 @@ entertainment-database/
 
 ---
 
-## 📸 Screenshot
-
-![Screenshot](screenshots/homepage.png)
-
-> *Optional: Add a real screenshot to showcase your UI.*
-
----
-
 ## 🙋‍♂️ Author
 
 **Varun Prakash**  
-[GitHub Profile](https://github.com/YOUR_USERNAME)
+[GitHub Profile]([https://github.com/YOUR_USERNAME](https://github.com/Varunprakash27))
 
 ---
 
