@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entertainment Database</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #020024, #090979, #00d4ff);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+    .button {
+      background-color: #ffffff10;
+      border: 1px solid #ffffff30;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background-color: #ffffff20;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Entertainment Database</h1>
+
+    <div class="section">
+      <h2>🧠 Quizzes</h2>
+      <div class="grid">
+        <a href="gk.php" class="button">General Knowledge</a>
+        <a href="apt.php" class="button">Aptitude</a>
+        <a href="ai.php" class="button">Artificial Intelligence</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎮 Games</h2>
+      <div class="grid">
+        <a href="skindex.html" class="button">Snake Game</a>
+        <a href="tic.html" class="button">Tic-Tac-Toe</a>
+        <a href="mem.html" class="button">Memory Match</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📋 Other</h2>
+      <div class="grid">
+        <a href="login.php" class="button">Login</a>
+        <a href="main.php" class="button">Dashboard</a>
+        <a href="result.php" class="button">View Results</a>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 Entertainment Database. Designed by Varun.
+    </footer>
+  </div>
+</body>
+</html>

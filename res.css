@@ -1,0 +1,15 @@
+body
+{
+background-image: url("https://t3.ftcdn.net/jpg/04/75/30/20/360_F_475302079_CtDh4gWqjEg20SPE8mjwNoHyjl3sqAbz.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.c1
+{
+color: white;
+text-align: center;
+margin-top: 40vh;
+font-family: cursive;
+font-size: 5vw;
+}
